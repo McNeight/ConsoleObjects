@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>654aa77e-384e-476c-8bac-b0f34a7ccb97</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ConsoleObjects</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Alignment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Border.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BorderCharacters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BorderPrinter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Buffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BufferElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BufferRow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Colors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorsExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsoleBufferBehavor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsoleObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dimention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Direction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ElementChangedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBufferBehavor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Layer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LayerBufferBehavor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Layout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Margin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuFluentExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Output.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Position.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scroll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Section.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Title.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TitlePrinter.cs" />
+  </ItemGroup>
+</Project>
