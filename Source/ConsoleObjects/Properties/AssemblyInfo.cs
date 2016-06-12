@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("ConsoleObjects")]
-[assembly: AssemblyDescription("ConsoleObjects is a framework for creating test user interface (TUI) applications.")]
+[assembly: AssemblyDescription("ConsoleObjects is a framework for creating text user interface (TUI) applications.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Scott Keith Thomas, Jr.")]
 [assembly: AssemblyProduct("ConsoleObjects")]
