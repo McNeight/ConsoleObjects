@@ -1,7 +1,7 @@
 @echo off
 echo Creating NuGet package
 set Name=ConsoleObjects
-set Version=1.0.0
+set Version=set Version=%APPVEYOR_BUILD_VERSION%
 
 echo.
 echo Cleaning convention based working directory...
