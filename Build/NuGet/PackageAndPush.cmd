@@ -1,7 +1,7 @@
 @echo off
 echo Creating NuGet package
-set Name=ConsoleObjects
-set Version=set Version=%APPVEYOR_BUILD_VERSION%
+set Name=%APPVEYOR_PROJECT_NAME%
+set Version=%APPVEYOR_BUILD_VERSION%
 cd /d %~dp0
 
 echo.
