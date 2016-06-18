@@ -5,7 +5,7 @@
     <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>ConsoleObjects is a framework for creating text user interface (TUI) applications.</description>
-    <tags>console interface text tui</tags>
+    <tags>console interface ui text tui curses</tags>
     <iconUrl>https://raw.githubusercontent.com/skthomasjr/ConsoleObjects/master/Build/NuGet/Package.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/ConsoleObjects/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/ConsoleObjects</projectUrl>
